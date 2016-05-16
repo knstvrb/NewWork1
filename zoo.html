@@ -5,7 +5,7 @@
     <title>Письмо</title>
 </head>
 <body>
-<table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
     <style>
         body{
         margin:0px;
@@ -18,40 +18,54 @@
         height:3112px;
         background:url(background.jpg) no-repeat;
         border-collapse: collapse;
-        padding: 0px;
+        table-layout: fixed;
         }
-        TD {
-        padding: 0px; /* Поля вокруг содержимого таблицы */
-        border: 0px
+        .left_col {
+        padding-bottom:28px;
+        padding-left:8px;
         }
-        .leftup{
-        width: 250px;
-        height: 130px;
+        .title {
+        width: 600px;
         }
-        .center{
-        width: 100px;
-        height: 130px;
-        }
-        .rightup{
-        width: 250px;
-        height: 130px;
+        .elements {
+        width: 600px;
+        padding-left:43px;
         }
     </style>
     <tr width="600px" height="130px">
-        <td class="leftup" align="left" width="250px" padding="0px">
-            <a class="facebook" href="#"><img src="facebook.png"></a>
-            <a class="vk" href="#"><img src="vk.png"></a>
+        <td class="left_col" align="right" width="44px" cellspacing="0" cellpadding="0" border="0">
+            <a href="#"><img src="facebook.png"></a>
         </td>
-        <td class="center" align="center" width="100px" padding="0px">
-            <div class="logo"><img src="logo.png"></div>
+        <td class="left_col" align="right" width="44px" cellspacing="0" cellpadding="0" border="0">
+            <a href="#"><img src="vk.png"></a>
         </td>
-        <td class="rightup" align="right" width="250px" padding="0px">
-            <a class="twitter" href="#"><img src="twitter.png"></a>
-            <a class="google" href="#"><img src="google.png"></a>
+        <td align="center" width="100px" cellspacing="0" cellpadding="0" border="0">
+            <div><img src="logo.png"></div>
+        </td>
+        <td class="left_col" align="left" width="44px" cellspacing="0" cellpadding="0" border="0">
+            <a href="#"><img src="twitter.png"></a>
+            </td>
+        <td class="left_col" align="left" width="44px" cellspacing="0" cellpadding="0" border="0">
+            <a href="#"><img src="google.png"></a>
         </td>
     </tr>
-    <tr>
-        <td width="600px">Верх</td>
+    <tr height="50px">
+        <td class="title" width="600px" align="center">Заголовок</td>
+        </tr>
+    <tr width="600px" height="188px">
+        <td class="elements"><a href="#"><img src="cats.png"></a></td>
+        </tr>
+    <tr width="600px" height="188px">
+        <td class="elements"><a href="#"><img src="dogs.png"></a></td>
+    </tr>
+    <tr width="600px" height="188px">
+        <td class="elements"><a href="#"><img src="birds.png"></a></td>
+    </tr>
+    <tr width="600px" height="188px">
+        <td class="elements"><a href="#"><img src="rodents.png"></a></td>
+    </tr>
+    <tr width="600px" height="188px">
+        <td class="elements"><a href="#"><img src="all.png"></a></td>
     </tr>
     <tr>
         <td width="200">Фото</td>
